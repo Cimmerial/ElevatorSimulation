@@ -1,6 +1,6 @@
 # Elevator Simulation
 
-A Python module that simulates a single elevator system, calculating the total travel time and recording the order of floors visited.
+A Python module that simulates a single elevator system, calculating the total travel time and recording the order of floors visited. Was done in Python due to it being (in my opinion) easy to run small scale tests with.
 
 ## Features
 
@@ -23,15 +23,11 @@ A Python module that simulates a single elevator system, calculating the total t
 
 ## Usage
 
-'''
-python3 elevator_simulation.py FLOOR_1 FLOOR_2 ... FLOOR_N
-'''
+`python3 elevator_simulation.py FLOOR_1 FLOOR_2 ... FLOOR_N`
 
 Example:
 
-'''
-python3 elevator_simulation.py 12 2 9 1 32
-'''
+`python3 elevator_simulation.py 12 2 9 1 32`
 
 ## Functions
 
@@ -43,9 +39,7 @@ python3 elevator_simulation.py 12 2 9 1 32
 
 To run test cases:
 
-```
-python3 elevator_simulation.py --test
-```
+`python3 elevator_simulation.py --test`
 
 The tests verify:
 1. Handling of empty floor lists
